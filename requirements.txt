@@ -1,19 +1,22 @@
 streamlit==1.51.0
-ragas==0.1.9
+
+# ragas version WITHOUT tiktoken dependency
+ragas==0.1.5
+
+# data
 pandas==2.3.3
 datasets==2.14.6
 
-# Compatible with langchain-openai & ragas
+# LLM stack
 openai==1.7.2
-
-# Matching versions across LangChain ecosystem
 langchain==0.1.0
 langchain-openai==0.0.2
 langchain-groq==0.0.1
 langchain-community==0.0.13
 
-# Embeddings model deps
+# embeddings
 sentence-transformers==2.2.2
-
-# Huggingface hub for datasets
 huggingface-hub==0.20.3
+
+# needed for datasets / huggingface
+pyyaml==6.0.1
