@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answer": "The capital of France is Paris, which is located in the north-central part of the country.",
+    "contexts": ["Paris is the capital and most populous city of France. With an official estimated population of 2,102,650 residents as of 1 January 2023."],
+    "ground_truth": "Paris"
+  },
+  {
+    "question": "Who wrote Romeo and Juliet?",
+    "answer": "William Shakespeare wrote Romeo and Juliet in the 1590s.",
+    "contexts": ["William Shakespeare was an English playwright, poet and actor. He wrote Romeo and Juliet early in his career, between 1594 and 1596."],
+    "ground_truth": "William Shakespeare"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "The speed of light in vacuum is approximately 299,792,458 meters per second.",
+    "contexts": ["The speed of light in vacuum, commonly denoted c, is a universal physical constant that is exactly equal to 299,792,458 metres per second."],
+    "ground_truth": "299,792,458 meters per second"
+  },
+  {
+    "question": "When did World War II end?",
+    "answer": "World War II ended in 1945, with Germany surrendering in May and Japan in September.",
+    "contexts": ["World War II ended in 1945. The war in Europe concluded with the unconditional surrender of Germany on May 8, 1945. The war in Asia ended with Japan's surrender on September 2, 1945."],
+    "ground_truth": "1945"
+  },
+  {
+    "question": "What is photosynthesis?",
+    "answer": "Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into oxygen and glucose.",
+    "contexts": ["Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that can be used to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars and starches, which are synthesized from carbon dioxide and water."],
+    "ground_truth": "A process where plants convert light energy into chemical energy, producing oxygen and glucose from carbon dioxide and water"
+  }
+]
